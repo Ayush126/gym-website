@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Nova+Square&family=Smooch&display=swap');
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('gym.png');
+    font-family: 'Balsamiq Sans', sans-serif;
+}
+.left{
+    display: inline-block;
+    position: absolute;
+    border: 2px solid red;
+    left: 60px;
+    top: 7%;
+    border: none;
+}
+
+.left img{
+    width: 115px;
+
+}
+.left div{
+    text-align: center;
+    line-height: 22px;
+    font-size: 20px;
+}
+
+.mid{
+    display: block;
+    width: 40%;
+    margin: 37px auto;
+    border: 2px solid green;
+    border: none;
+}
+
+.right{
+    position: absolute;
+    right: 42px;
+    top: 48px;
+    display: inline-block;
+    border: 2px solid yellow;
+    border: none;
+}
+
+.navbar{
+    display: inline-block;
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 35px 22px;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 18px;
+}
+
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: yellowgreen;
+}
+
+.btn{
+    font-family: 'Balsamiq Sans', sans-serif;
+    margin: 0px 9px;
+    background-color: goldenrod;
+    color: white;
+    padding: 4px 5px;
+    border: 2px solid yellowgreen;
+    border-radius: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+.btn:hover{
+    background-color: red ;
+}
+.container{
+    border: 2px solid white;
+    margin: 147px 80px;
+    padding: 130px 59px;
+    width: 40%;
+    border-radius: 30px;
+}
+
+.form-group input{
+    font-family: 'Balsamiq Sans', sans-serif;
+    text-align: center;
+    display: block;
+    width: 320px;
+    padding: 9px;
+    border: 2px solid black;
+    margin: 8px auto;
+    border-radius: 9px;
+    font-size: 20px
+}
+
+.container h1{
+    text-align: center;
+}
+
+.container button{
+    display: block;
+    width: 15%;
+    margin: auto;
+}
